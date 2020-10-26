@@ -1,0 +1,41 @@
+.readme .readme {
+  @apply leading-loose;
+}
+
+.readme h1 {
+  @apply text-3xl;
+}
+
+.readme h2 {
+  @apply text-2xl;
+}
+
+.readme h3 {
+  @apply text-xl;
+}
+
+.readme h4, h5, h6 {
+  @apply text-lg;
+}
+
+.readme p, ul, pre, img, iframe, video {
+  @apply my-4 max-w-full;
+}
+
+.readme pre {
+  color: #dcd6b0;
+
+  @apply bg-gray-900 shadow-lg p-2 text-xs overflow-x-auto break-all;
+}
+
+.readme code {
+  @apply max-w-full;
+}
+
+.readme a > img {
+  @apply m-0;
+}
+
+.readme ul {
+  @apply list-disc pl-4;
+}
